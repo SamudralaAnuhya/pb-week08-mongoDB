@@ -44,7 +44,7 @@
     </header>
 
     <!-- This is an SEO Change : changed all non title tags from h1 to h2 -->
-    <main>main class="center" id="main">
+    <main>
 
         <section class="ptitle-area">
             <!-- This is a Semantic HTML Change : Added article -->
@@ -221,7 +221,7 @@
             svg.append("text")
                 .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.top + 20) + ")")
                 .style("text-anchor", "middle")
-                .text("X Axis Label");
+                .text("Category");
 
             // Add y axis label
             svg.append("text")
@@ -230,7 +230,7 @@
                 .attr("x", 0 - (height / 2))
                 .attr("dy", "1em")
                 .style("text-anchor", "middle")
-                .text("Y Axis Label");
+                .text("Budget");
 
         }
 
